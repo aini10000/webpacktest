@@ -1,0 +1,11 @@
+﻿# 忽略编译生成的文件夹
+
+/.git/
+
+/.idea/
+
+/.sass-cache/
+
+/node_modules/
+
+/dist/

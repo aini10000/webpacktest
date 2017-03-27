@@ -1,0 +1,22 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base dist",
+    "bulid": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch",
+    "watch2": "webpack-dev-server --progress --colors --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
